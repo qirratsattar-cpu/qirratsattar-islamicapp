@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(islamic.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+}
+h1{
+background-color: rgba(0, 0, 0, 0.514);
+color: rgb(255, 166, 0);
+font-weight: bold;
+}
+
+#options button {
+    width: 100%;
+    text-align: left;
+}
+
+#result h3 {
+    text-align: center;
+}
+.card {
+  background: rgba(255, 255, 255, 0.658); /* smoke white + transparent */
+  backdrop-filter: blur(6px);           /* glass effect */
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 15px;
+    min-height: 100vh;
+}
+
+.app-footer {
+  background: linear-gradient(135deg, #f6f7fa, #61738d);
+  color: #ccc;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+.footer-about {
+  max-width: 900px;
+  margin: 0 auto 8px;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #464545;
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+  .app-footer {
+    font-size: 13px;
+  }
+}
+
+.app-header {
+  background: linear-gradient(135deg, #f6f7fa, #61738d);
+  color: #e9890b;
+  text-align: center;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.app-header p {
+  margin: 5px 0 0;
+  font-size: 18px;
+  opacity: 0.9;
+  color: black;
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 22px;
+  }
+}
+.text-end{
+    color: red;
+}
+#question{
+    font-weight: bolder;
+}
+
+
